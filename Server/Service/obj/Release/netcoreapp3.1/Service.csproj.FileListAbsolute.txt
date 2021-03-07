@@ -1,0 +1,9 @@
+C:\Users\MrPc\Desktop\Ole code\Server\Service\bin\Release\netcoreapp3.1\Service.deps.json
+C:\Users\MrPc\Desktop\Ole code\Server\Service\bin\Release\netcoreapp3.1\Service.dll
+C:\Users\MrPc\Desktop\Ole code\Server\Service\bin\Release\netcoreapp3.1\Service.pdb
+C:\Users\MrPc\Desktop\Ole code\Server\Service\obj\Release\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\Users\MrPc\Desktop\Ole code\Server\Service\obj\Release\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Users\MrPc\Desktop\Ole code\Server\Service\obj\Release\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Users\MrPc\Desktop\Ole code\Server\Service\obj\Release\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\MrPc\Desktop\Ole code\Server\Service\obj\Release\netcoreapp3.1\Service.dll
+C:\Users\MrPc\Desktop\Ole code\Server\Service\obj\Release\netcoreapp3.1\Service.pdb

@@ -1,0 +1,25 @@
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\LoadBalancerino - Web Deploy\profile.arm.json
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\LoadBalancer.exe
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\LoadBalancer.deps.json
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\LoadBalancer.runtimeconfig.json
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\LoadBalancer.runtimeconfig.dev.json
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\LoadBalancer.dll
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\LoadBalancer.pdb
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\Service.dll
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\Service.pdb
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.csprojAssemblyReference.cache
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.AssemblyInfoInputs.cache
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.AssemblyInfo.cs
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.csproj.CoreCompileInputs.cache
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.RazorTargetAssemblyInfo.cache
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.csproj.CopyComplete
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\staticwebassets\LoadBalancer.StaticWebAssets.Manifest.cache
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\staticwebassets\LoadBalancer.StaticWebAssets.xml
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.dll
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.pdb
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.genruntimeconfig.cache

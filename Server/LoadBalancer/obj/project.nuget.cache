@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AVDHGgbcjJ4BFvl/OaFIXjG5o0frhLDqCJt5zbWhnfDZMAn4bNKGxbp4QwgHc3MPlsPUOon+H4pU5uVr7LLsIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MrPc\\Desktop\\Ole code\\Server\\LoadBalancer\\LoadBalancer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MrPc\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
