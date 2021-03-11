@@ -7,6 +7,6 @@ namespace Service
    public interface IPrime
     {
         Boolean isPrime(int prime);
-        List<string> countPrime(int from, int to);
+        List<int> countPrime(int from, int to);
     }
 }
