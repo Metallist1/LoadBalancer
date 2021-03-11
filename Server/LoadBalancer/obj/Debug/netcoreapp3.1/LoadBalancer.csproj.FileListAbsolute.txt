@@ -23,3 +23,5 @@ C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Debug\netcoreapp3.1\stati
 C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Debug\netcoreapp3.1\LoadBalancer.dll
 C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Debug\netcoreapp3.1\LoadBalancer.pdb
 C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Debug\netcoreapp3.1\LoadBalancer.genruntimeconfig.cache
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Debug\netcoreapp3.1\Entities.pdb

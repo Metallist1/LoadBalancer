@@ -23,3 +23,6 @@ C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\sta
 C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.dll
 C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.pdb
 C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\obj\Release\netcoreapp3.1\LoadBalancer.genruntimeconfig.cache
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\Entities.dll
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\Entities.pdb
+C:\Users\MrPc\Desktop\Ole code\Server\LoadBalancer\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\LoadBalancer2 - Web Deploy\profile.arm.json

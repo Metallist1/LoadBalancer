@@ -3,7 +3,7 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 
   let previousServer = 0;
-  let arrayOfServers = ['Server1','Server 2'];
+  let arrayOfServers = ['https://loadbalancerino.azurewebsites.net','http://loadbalancer2.azurewebsites.net/'];
 io.on("connection", socket => {
 
   function selectServer() {
@@ -13,6 +13,7 @@ io.on("connection", socket => {
   
    socket.on("isPrime", docId => {
 	   console.log(selectServer());
+	   socket.to(doc.id).emit("document", doc);
     socket.emit("isPrime", 'response');
   });
   

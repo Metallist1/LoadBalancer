@@ -6,7 +6,7 @@ namespace Service
 {
     public class Prime : IPrime
     {
-        public List<string> countPrime(string from, string to)
+        public List<string> countPrime(int from, int to)
         {
             List<string> myList = new List<string>() {
                 "one",
@@ -16,7 +16,7 @@ namespace Service
             return myList;
         }
 
-        public bool isPrime(string prime)
+        public bool isPrime(int prime)
         {
             return false;
         }
