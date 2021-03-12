@@ -36,48 +36,46 @@ io.on("connection", socket => {
 		  }
 		}
 	} 
-   socket.on("isPrime", docId => {
-	const option = createOption ('' , 'GET', '/api/primes/' + docId);
-			console.log(option);
-			  const req = https.request(option, res => {
-			  console.log(`statusCode: ${res.statusCode}`)
+	socket.on("isPrime", docId => {
+		const option = createOption ('' , 'GET', '/api/primes/' + docId);
+		const req = https.request(option, res => {
+			console.log(`statusCode: ${res.statusCode}`)
 
-			  res.on('data', d => {
-				console.log(JSON.parse(d).response);
-				socket.emit("isPrime", JSON.parse(d).response);
-			  })
+			res.on('data', d => {
+				socket.emit("isPrime", d);
 			})
+		})
 
-			req.on('error', error => {
-			  console.error(error)
-			})
+		req.on('error', error => {
+			console.error(error);
+			socket.emit("isPrime", 'Error');
+		})
 
-			//req.write(data)
-			req.end()
+		req.end()
     });
-  socket.on("countPrime", doc => {
-	  const data = JSON.stringify({
+	socket.on("countPrime", doc => {
+		const data = JSON.stringify({
 			from: Number(doc.before),
 			to: Number(doc.after)
 		});
-  console.log(data);
-  	const option = createOption ( data, 'POST', '/api/primes/');
+			
+		const option = createOption ( data, 'POST', '/api/primes/');
 
-			  const req = https.request(option, res => {
-			  console.log(`statusCode: ${res.statusCode}`)
+		const req = https.request(option, res => {
+			console.log(`statusCode: ${res.statusCode}`)
 
-			  res.on('data', d => {
-				console.log(JSON.parse(d).response);
-				socket.emit("countPrime", JSON.parse(d).response);
-			  })
+			res.on('data', d => {
+				socket.emit("countPrime", d);
 			})
+		})
 
-			req.on('error', error => {
-			  console.error(error)
-			})
+		req.on('error', error => {
+			console.error(error);
+			socket.emit("countPrime", 'Error');
+		})
 
-			req.write(data)
-			req.end()
+		req.write(data)
+		req.end()
   });
   
 
