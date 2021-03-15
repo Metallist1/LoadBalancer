@@ -1,0 +1,56 @@
+
+
+<form [formGroup]="isPrimeForm" (ngSubmit)="isPrime()" class="password-form">
+  <div class="form-group">
+    <input type="email" class="form-control" placeholder="Insert number" formControlName="isPrimeContrl" >
+    <div *ngIf="submitted && f.isPrimeContrl.errors" class="invalid-feedback">
+      <div *ngIf="f.isPrimeContrl.errors.required">A number is required</div>
+    </div>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-info text-white change-button">Check prime</button>
+  </div>
+</form>
+
+<div class="response">Is prime response : {{isPrimeReponse}}</div>
+
+<form [formGroup]="countPrimeForm" (ngSubmit)="countPrime()" class="password-form">
+  <div class="form-group">
+    <input type="email" class="form-control" placeholder="Insert number" formControlName="countPrimeContrl" >
+    <div *ngIf="submittedCount && g.countPrimeContrl.errors" class="invalid-feedback">
+      <div *ngIf="g.countPrimeContrl.errors.required">A number is required</div>
+    </div>
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control" placeholder="Insert number" formControlName="countPrimeContrl2" >
+    <div *ngIf="submittedCount && g.countPrimeContrl2.errors" class="invalid-feedback">
+      <div *ngIf="g.countPrimeContrl2.errors.required">A number is required</div>
+    </div>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-info text-white change-button">Display primes</button>
+  </div>
+</form>
+
+
+<div class="response">Count prime response : {{countResponse}}</div>
+<div class="iteration-selector">
+  <div class="display-name">Number of iterations</div>
+    <select [(ngModel)]='selectedIterations' class="form-control profile-select no-border-radius">
+      <option value="default" disabled>Select iteration count</option>
+      <option [ngValue]="1"> 1 </option>
+      <option [ngValue]="10"> 10 </option>
+      <option [ngValue]="100"> 100 </option>
+      <option [ngValue]="500"> 500 </option>
+      <option [ngValue]="1000"> 1000 </option>
+      <option [ngValue]="10000"> 10000 </option>
+    </select>
+</div>
+
+
+
+<div class="response">Started iteration Execution at : {{msToTime(ex1)}}</div>
+
+<div class="response">Ended iteration Execution at : {{msToTime(ex2)}}</div>
+
+<div class="response">Total time elapsed : {{msToTime(ex2 - ex1)}}</div>

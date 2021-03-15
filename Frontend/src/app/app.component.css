@@ -1,0 +1,16 @@
+.password-form{
+  display: flex;
+}
+.form-group{
+  margin: 25px 25px;
+}
+
+.iteration-selector{
+  display: flex;
+
+  margin: 25px;
+}
+
+.display-name{
+  margin: 0 25px;
+}
